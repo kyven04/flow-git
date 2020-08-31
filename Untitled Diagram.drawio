@@ -1,17 +1,420 @@
-<mxfile host="app.diagrams.net" modified="2020-08-31T05:09:39.425Z" agent="5.0 (Windows)" etag="WPw8yjFSYV5PhF2D4YYX" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-31T08:29:23.430Z" agent="5.0 (Windows)" etag="Yi-mXpGs1P-9p9F8-Yv_" version="13.6.5" type="github">
   <diagram id="dnRgv7B2gYc5I0xisCOR" name="Page-1">
-    <mxGraphModel dx="1422" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-1" value="開始" style="rhombus;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="290" y="60" width="130" height="100" as="geometry" />
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-179" value="&lt;font style=&quot;font-size: 30px&quot;&gt;使用者預約掛號流程&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=60;fontSize=25;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1250" width="780" height="1120" as="geometry" />
         </mxCell>
-        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-2" value="Web預約" style="rounded=1;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="120" y="260" width="160" height="60" as="geometry" />
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-180" value="&lt;font style=&quot;font-size: 20px&quot;&gt;現場端&lt;/font&gt;" style="swimlane;html=1;startSize=30;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-179">
+          <mxGeometry y="60" width="780" height="1060" as="geometry">
+            <mxRectangle y="60" width="290" height="990" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-3" value="App預約" style="rounded=1;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="400" y="260" width="160" height="60" as="geometry" />
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624.9300000000003" y="833.6000000000004" as="sourcePoint" />
+            <mxPoint x="779.93" y="932.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-276" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-180" source="JxTsUpEeMa1ZSkfOxO1r-273" target="JxTsUpEeMa1ZSkfOxO1r-275">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-419" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=20;fontColor=#FF0000;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-180" source="JxTsUpEeMa1ZSkfOxO1r-379" target="JxTsUpEeMa1ZSkfOxO1r-418">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-379" value="無資料" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="170" y="430" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-418" value="&lt;font color=&quot;#000000&quot;&gt;現場確認&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FF0000;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="175" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-415" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FF0000;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="270" y="380" width="40" height="20.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-273" value="&lt;div&gt;櫃檯報到&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="307.5" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-380" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-180" source="JxTsUpEeMa1ZSkfOxO1r-275" target="JxTsUpEeMa1ZSkfOxO1r-378">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-381" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-180" source="JxTsUpEeMa1ZSkfOxO1r-275" target="JxTsUpEeMa1ZSkfOxO1r-379">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-275" value="輸入身份ID" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="307.5" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-284" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-180" source="JxTsUpEeMa1ZSkfOxO1r-283" target="JxTsUpEeMa1ZSkfOxO1r-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-283" value="開始" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="307.5" y="54" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-216" value="核對身分ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="360" y="270" width="125" height="20.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-279" value="完成報到" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="370" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-397" value="&lt;font color=&quot;#00CC00&quot;&gt;OK&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FF0000;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="420" y="380" width="40" height="20.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-416" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=20;fontColor=#FF0000;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-180" source="JxTsUpEeMa1ZSkfOxO1r-378" target="JxTsUpEeMa1ZSkfOxO1r-279">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-417" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=20;fontColor=#FF0000;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-180" source="JxTsUpEeMa1ZSkfOxO1r-378" target="JxTsUpEeMa1ZSkfOxO1r-281">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-378" value="確認" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="460" y="430" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-281" value="&lt;div&gt;產生&lt;/div&gt;&lt;div&gt;看診序號&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="560" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-278" value="資料比對" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-180">
+          <mxGeometry x="600" y="310" width="125" height="20.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=20;" edge="1" parent="1" source="JxTsUpEeMa1ZSkfOxO1r-93" target="JxTsUpEeMa1ZSkfOxO1r-275">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-33" value="&lt;font style=&quot;font-size: 30px&quot;&gt;使用者預約掛號流程&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=60;fontSize=25;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="32" width="1820" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-38" value="&lt;font style=&quot;font-size: 20px&quot;&gt;WEB端&lt;/font&gt;" style="swimlane;html=1;startSize=30;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-33">
+          <mxGeometry y="60" width="780" height="1060" as="geometry">
+            <mxRectangle y="60" width="290" height="990" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102.5" y="426.40000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102.5" y="488.8" as="sourcePoint" />
+            <mxPoint x="102.5" y="530.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="342.5" y="488.7999999999998" as="sourcePoint" />
+            <mxPoint x="342.5" y="530.3999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102.5" y="426.40000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102.5" y="488.8" as="sourcePoint" />
+            <mxPoint x="102.5" y="530.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="342.5" y="488.7999999999998" as="sourcePoint" />
+            <mxPoint x="342.5" y="530.3999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-43" value="查詢醫師" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="45" y="426.40000000000003" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-22" target="JxTsUpEeMa1ZSkfOxO1r-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;依據醫師排班日期顯示&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="45" y="530.4000000000001" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-31" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;填寫&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;預約資料&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="170" y="769.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-37" value="初診" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="172.5" y="187.20000000000002" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-56" target="JxTsUpEeMa1ZSkfOxO1r-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-56" value="初診" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="172.5" y="187.20000000000002" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-51" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;選定&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;醫師/日期&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="172.5" y="665.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-50" value="查詢" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="172.5" y="301.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-26" target="JxTsUpEeMa1ZSkfOxO1r-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-26" value="&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;選定&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;醫師/日期/時段&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="140" y="665.6" width="180" height="62.4" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-16" target="JxTsUpEeMa1ZSkfOxO1r-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-16" value="可預約時段查詢" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="172.5" y="301.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-53" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;填寫預約資料&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="172.5" y="769.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-31" target="JxTsUpEeMa1ZSkfOxO1r-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-31" target="JxTsUpEeMa1ZSkfOxO1r-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-74" target="JxTsUpEeMa1ZSkfOxO1r-285">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-74" value="完成預約" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="170" y="920.8" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-55" value="查詢日期" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="282.5" y="426.40000000000003" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-54" target="JxTsUpEeMa1ZSkfOxO1r-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-54" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;依據日期顯示值班醫師&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="282.5" y="530.4" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-57" target="JxTsUpEeMa1ZSkfOxO1r-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-61" target="JxTsUpEeMa1ZSkfOxO1r-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-61" target="JxTsUpEeMa1ZSkfOxO1r-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-289" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-288" target="JxTsUpEeMa1ZSkfOxO1r-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-288" target="JxTsUpEeMa1ZSkfOxO1r-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-288" value="開始" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="322.5" y="58" width="120" height="68.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-285" value="結束" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="580" y="917.6" width="120" height="68.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-65" value="已預約時段查詢" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="602.5" y="488.8" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-71" value="已事先預約完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="592.5" y="395.2" width="175" height="20.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-61" value="登入" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="492.5" y="301.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-57" value="複診" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="492.5" y="187.20000000000002" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-69" target="JxTsUpEeMa1ZSkfOxO1r-285">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-69" value="完成預約" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="372.5" y="769.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-72" value="未事先預約" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="322.5" y="343.2" width="135" height="20.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-38" source="JxTsUpEeMa1ZSkfOxO1r-65" target="JxTsUpEeMa1ZSkfOxO1r-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-67" value="預約資訊" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-38">
+          <mxGeometry x="602.5" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-34" value="&lt;font style=&quot;font-size: 18px&quot;&gt;資料庫端&lt;/font&gt;" style="swimlane;html=1;startSize=30;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-33">
+          <mxGeometry x="780" y="60" width="300" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-90" value="資料庫" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=13.28571428571405;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-34">
+          <mxGeometry x="80" y="150" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-34" source="JxTsUpEeMa1ZSkfOxO1r-90" target="JxTsUpEeMa1ZSkfOxO1r-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-93" value="HIS資料庫" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-34">
+          <mxGeometry x="80" y="470" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-58" value="&lt;font style=&quot;font-size: 20px&quot;&gt;APP端&lt;/font&gt;" style="swimlane;html=1;startSize=30;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-33">
+          <mxGeometry x="1080" y="60" width="740" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-335" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-353" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66.25" y="426.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-336" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66.25" y="488.8000000000002" as="sourcePoint" />
+            <mxPoint x="66.25" y="530.3999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-337" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="306.25" y="488.7999999999997" as="sourcePoint" />
+            <mxPoint x="306.25" y="530.3999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-338" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-349" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66.25" y="426.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-339" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66.25" y="488.8000000000002" as="sourcePoint" />
+            <mxPoint x="66.25" y="530.3999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-340" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="306.25" y="488.7999999999997" as="sourcePoint" />
+            <mxPoint x="306.25" y="530.3999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-341" value="查詢醫師" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="8.75" y="426.4000000000001" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-343" target="JxTsUpEeMa1ZSkfOxO1r-351" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-343" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;依據醫師排班日期顯示&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="8.75" y="530.4000000000001" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-344" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;填寫&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;預約資料&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="133.75" y="769.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-345" value="初診" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="136.25" y="187.20000000000005" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-346" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-347" target="JxTsUpEeMa1ZSkfOxO1r-353" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-347" value="初診" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="136.25" y="187.20000000000005" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-348" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;選定&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;醫師/日期&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="136.25" y="665.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-349" value="查詢" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="136.25" y="301.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-351" target="JxTsUpEeMa1ZSkfOxO1r-344" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-351" value="&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;選定&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;醫師/日期/時段&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="103.75" y="665.6" width="180" height="62.4" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-352" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-353" target="JxTsUpEeMa1ZSkfOxO1r-359" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-353" value="可預約時段查詢" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="136.25" y="301.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-354" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;填寫預約資料&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="136.25" y="769.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-344" target="JxTsUpEeMa1ZSkfOxO1r-374" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-356" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-344" target="JxTsUpEeMa1ZSkfOxO1r-358" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-357" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=20;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-358" target="JxTsUpEeMa1ZSkfOxO1r-368" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-358" value="完成預約" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="133.75" y="920.8" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-359" value="查詢日期" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="246.25" y="426.4000000000001" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-360" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-361" target="JxTsUpEeMa1ZSkfOxO1r-351" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-361" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;依據日期顯示值班醫師&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="246.25" y="530.4" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-362" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-372" target="JxTsUpEeMa1ZSkfOxO1r-371" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-371" target="JxTsUpEeMa1ZSkfOxO1r-369" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-371" target="JxTsUpEeMa1ZSkfOxO1r-353" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-365" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-367" target="JxTsUpEeMa1ZSkfOxO1r-372" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-366" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=20;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-367" target="JxTsUpEeMa1ZSkfOxO1r-347" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-367" value="開始" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="286.25" y="58" width="120" height="68.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-368" value="結束" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="543.75" y="917.6" width="120" height="68.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-369" value="已預約時段查詢" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="566.25" y="488.79999999999995" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-371" value="登入" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="456.25" y="301.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-372" value="複診" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="456.25" y="187.20000000000005" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-373" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-374" target="JxTsUpEeMa1ZSkfOxO1r-368" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-374" value="完成預約" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="336.25" y="769.6" width="120" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-375" value="未事先預約" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="286.25" y="343.2" width="135" height="20.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-376" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" source="JxTsUpEeMa1ZSkfOxO1r-369" target="JxTsUpEeMa1ZSkfOxO1r-377" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-377" value="預約資訊" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="566.25" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-370" value="已事先預約完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="JxTsUpEeMa1ZSkfOxO1r-58">
+          <mxGeometry x="556.25" y="395.2" width="175" height="20.8" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.304;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-33" source="JxTsUpEeMa1ZSkfOxO1r-69" target="JxTsUpEeMa1ZSkfOxO1r-90">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="845" />
+              <mxPoint x="810" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="JxTsUpEeMa1ZSkfOxO1r-33" source="JxTsUpEeMa1ZSkfOxO1r-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="859" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="996" />
+              <mxPoint x="530" y="790" />
+              <mxPoint x="830" y="790" />
+              <mxPoint x="830" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-420" value="&lt;font color=&quot;#000000&quot;&gt;協助約診&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="215" y="2010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxTsUpEeMa1ZSkfOxO1r-421" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=20;fontColor=#FF0000;" edge="1" parent="1" source="JxTsUpEeMa1ZSkfOxO1r-418" target="JxTsUpEeMa1ZSkfOxO1r-420">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
